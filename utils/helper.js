@@ -40,8 +40,8 @@ export function setLocalNotification () {
 
               let tomorrow = new Date()
               tomorrow.setDate(tomorrow.getDate() + 1)
-              tomorrow.setHours(7)
-              tomorrow.setMinutes(20)
+              tomorrow.setHours(10)
+              tomorrow.setMinutes(00)
 
               Notifications.scheduleLocalNotificationAsync(
                 createNotification(),
